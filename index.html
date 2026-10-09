@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Email Templates — Shaheryar Butt</title>
+<meta name="description" content="10 responsive, production-ready HTML email templates.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif; background: #08080a; color: #f4f4f5; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  ::selection { background: #d7fd44; color: #08080a; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+  header { padding: 90px 0 30px; text-align: center; }
+  .kicker { color: #d7fd44; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 18px; }
+  h1 { font-size: clamp(38px, 6vw, 64px); letter-spacing: -2.5px; font-weight: 800; margin-bottom: 14px; }
+  header p { color: #a1a1aa; max-width: 600px; margin: 0 auto 10px; font-size: 17px; }
+  .back { display: inline-block; margin-top: 18px; color: #d7fd44; text-decoration: none; font-size: 14px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding: 50px 0 30px; }
+  .card { display: block; background: #101014; border: 1px solid #222228; border-radius: 18px; padding: 30px; text-decoration: none; transition: border-color .25s, transform .25s; }
+  .card:hover { border-color: #d7fd44; transform: translateY(-4px); }
+  .card .tag { display: inline-block; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 999px; margin-bottom: 16px; }
+  .tag.real { color: #d7fd44; border: 1px solid #2c3a1a; background: #141b0c; }
+  .tag.photo { color: #7db4fd; border: 1px solid #1e3a5f; background: #0d1626; }
+  .tag.concept { color: #a1a1aa; border: 1px solid #2a2a30; background: #141416; }
+  .card b { display: block; color: #f4f4f5; font-size: 21px; letter-spacing: -0.5px; margin-bottom: 8px; }
+  .card p { color: #a1a1aa; font-size: 15px; margin-bottom: 16px; }
+  .card .view { color: #d7fd44; font-size: 14px; font-weight: 700; }
+  section.note { padding: 10px 0 80px; }
+  .note-box { border: 1px solid #222228; border-radius: 16px; padding: 26px 30px; color: #a1a1aa; font-size: 15px; background: #101014; }
+  .note-box strong { color: #f4f4f5; }
+  footer { border-top: 1px solid #222228; padding: 28px 0; text-align: center; color: #5b5b64; font-size: 14px; }
+  footer a { color: #d7fd44; text-decoration: none; }
+  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Shaheryar Butt · Hand-coded</div>
+    <h1>HTML Email Templates</h1>
+    <p>10 responsive, production-ready email templates. Table layouts, inline CSS, Outlook-safe — built the way real email developers build.</p>
+    <a class="back" href="https://shaheryarbuttux.github.io/">← Back to portfolio</a>
+  </header>
+
+  <div class="grid">
+    <a class="card" href="plaxic-welcome.html"><span class="tag real">Real client design</span><b>Plaxic — Welcome email</b><p>Eco-movement onboarding email with contribution band. Recreated in HTML from the original client design.</p><span class="view">View live →</span></a>
+    <a class="card" href="neurogan-wellness.html"><span class="tag real">Real client design</span><b>Neurogan — Wellness email</b><p>CBD brand email: hero, feature rows, testimonial card, product grid. Recreated from the original design.</p><span class="view">View live →</span></a>
+    <a class="card" href="pawmart-pets.html"><span class="tag photo">Genuine photography</span><b>Pawmart — Pet store</b><p>Warm, playful pet-store email with real product photography.</p><span class="view">View live →</span></a>
+    <a class="card" href="velvet-thread-sale.html"><span class="tag photo">Genuine photography</span><b>Velvet &amp; Thread — Fashion sale</b><p>Editorial fashion sale email with discount-code box and product grid.</p><span class="view">View live →</span></a>
+    <a class="card" href="lumiere-skincare.html"><span class="tag photo">Genuine photography</span><b>Lumière — Skincare</b><p>Minimal luxury skincare email: ritual steps, featured product, testimonial.</p><span class="view">View live →</span></a>
+    <a class="card" href="black-friday.html"><span class="tag concept">Concept</span><b>NOIR&amp;CO — Black Friday</b><p>Dark, bold sale email with urgency bar and countdown block.</p><span class="view">View live →</span></a>
+    <a class="card" href="eco-brand.html"><span class="tag concept">Concept</span><b>Terra &amp; Thyme — Eco brand</b><p>Earth-tone brand email with story section and impact stats.</p><span class="view">View live →</span></a>
+    <a class="card" href="wellness.html"><span class="tag concept">Concept</span><b>Stillpoint — Wellness</b><p>Calm, minimal wellness email with benefits and testimonial.</p><span class="view">View live →</span></a>
+    <a class="card" href="sale.html"><span class="tag concept">Concept</span><b>brightmart — Sale</b><p>Energetic e-commerce sale email with discount-code box.</p><span class="view">View live →</span></a>
+    <a class="card" href="pet-store.html"><span class="tag concept">Concept</span><b>Wag &amp; Whistle — Pet store</b><p>Playful pet email with tips panel and first-order CTA.</p><span class="view">View live →</span></a>
+  </div>
+
+  <section class="note">
+    <div class="note-box"><strong>How these are built:</strong> table-based layouts, 600px max width, all CSS inline, mobile stacking queries, hidden preheaders, Outlook conditionals, bulletproof buttons. Photography: Unsplash (free to use). Code: <a href="https://github.com/shaheryarbuttUX/html-email-templates">github.com/shaheryarbuttUX/html-email-templates</a></div>
+  </section>
+</div>
+<footer>© 2026 Shaheryar Butt · <a href="https://shaheryarbuttux.github.io/">Portfolio</a></footer>
+</body>
+</html>
