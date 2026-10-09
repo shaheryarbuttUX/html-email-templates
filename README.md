@@ -4,6 +4,12 @@ A collection of responsive HTML email templates, hand-coded with email-client-sa
 
 ## Templates
 
+**Original designs with genuine photography** (designed + built from scratch; photography via Unsplash, free to use):
+
+- **pawmart-pets.html** — "Pawmart" pet-store email: warm amber palette, golden-retriever hero, "Treats Your Pup Will Love" headline, 3-product row with prices and add-to-cart buttons, and a "3 tips for a happy pup" panel.
+- **velvet-thread-sale.html** — "Velvet & Thread" fashion sale email: elegant black/white editorial design with gold accent, "THE AUTUMN SALE / UP TO 50% OFF" hero, dashed-border `VELVET25` discount-code box, and a 2x2 product grid with strikethrough pricing.
+- **lumiere-skincare.html** — "Lumière" skincare email: clean minimal luxury in soft neutrals with serif headlines, "The Ritual Edit" hero, numbered Cleanse / Treat / Moisturize routine steps, featured product card, and a verified-customer testimonial.
+
 **Faithful HTML recreations of real client designs** (original email designs by Shaheryar Butt, rebuilt as responsive HTML for portfolio purposes):
 
 - **plaxic-welcome.html** — Plaxic eco-movement welcome email: "Welcome To Plaxic / Joining the movement to Clean the Earth" hero, earth-in-hands imagery, green $1.99 contribution band, explore-the-app section, Plaxic Team sign-off.
@@ -24,10 +30,14 @@ A collection of responsive HTML email templates, hand-coded with email-client-sa
 - **Mobile responsive** — `@media (max-width:480px)` collapses multi-column rows into stacked blocks, scales hero type, and expands buttons to full width.
 - **Outlook conditionals** — `<!--[if mso]>...<![endif]-->` wrappers around the outer container; VML namespaces declared on `<html>` for future background-image support.
 - **Bulletproof buttons** — padded table cells with background colors instead of CSS-styled anchors, so CTAs render even where padding on `<a>` is stripped.
-- **Email-safe images** — `https://placehold.co` placeholders with explicit `width`, `display:block`, and descriptive `alt` text on every image.
+- **Email-safe images** — Unsplash stock photography in the original-design templates (`pawmart-pets`, `velvet-thread-sale`, `lumiere-skincare`); `https://placehold.co` placeholders elsewhere, with explicit `width`, `display:block`, and descriptive `alt` text on every image.
 - **Accessibility & compliance** — hidden preheader text, `role="article"` on the email body, `lang`/`dir` attributes, physical mailing address and unsubscribe link in every footer.
 - **Web-safe fonts** — Arial/Helvetica, Georgia, Trebuchet MS, Courier New, with generic fallbacks; no webfont dependencies.
 - **No JavaScript, no external stylesheets.**
+
+## Photography
+
+The `pawmart-pets.html`, `velvet-thread-sale.html`, and `lumiere-skincare.html` templates use genuine stock photography from [Unsplash](https://unsplash.com) (free to use under the Unsplash License). All other templates use `placehold.co` placeholders until real brand assets are swapped in.
 
 ## How to preview
 
