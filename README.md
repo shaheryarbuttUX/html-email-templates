@@ -1,12 +1,18 @@
 # HTML Email Templates
 
-A collection of 5 original, production-quality responsive HTML email templates, hand-coded with email-client-safe techniques. Built as a portfolio piece demonstrating email development skills: table-based layouts, bulletproof buttons, inline CSS, and mobile-first thinking for the inbox.
+A collection of responsive HTML email templates, hand-coded with email-client-safe techniques. Built as a portfolio piece demonstrating email development skills: table-based layouts, bulletproof buttons, inline CSS, and mobile-first thinking for the inbox.
 
 ## Templates
 
+**Faithful HTML recreations of real client designs** (original email designs by Shaheryar Butt, rebuilt as responsive HTML for portfolio purposes):
+
+- **plaxic-welcome.html** — Plaxic eco-movement welcome email: "Welcome To Plaxic / Joining the movement to Clean the Earth" hero, earth-in-hands imagery, green $1.99 contribution band, explore-the-app section, Plaxic Team sign-off.
+- **neurogan-wellness.html** — Neurogan CBD wellness email: "Wellness / On Us" hero with product bottle, "With Neurogan's Lab-Tested, Full-Spectrum Free Samples", FULL SPECTRUM CBD OIL feature rows (Tastes Like / Feels Like / Harmonizes Like), star-rated testimonial card, pill CTAs, "You May Also Like" product row.
+
+**Generic placeholders** (being replaced with real client work over time):
+
 - **black-friday.html** — Bold Black Friday sale email: dark theme, giant discount headline, red urgency bar, 3-product grid, countdown-style timer block, and stacked CTAs.
 - **eco-brand.html** — Clean eco/sustainable brand email: light greens and earth tones, hero image, brand-story card, 2-column product feature, and impact stats row.
-- **wellness.html** — Calm, minimal wellness/CBD brand email: soft neutral palette, numbered benefit list with CSS circle markers (no icons or emoji), star-rated testimonial block, and pill CTAs.
 - **sale.html** — Bright, energetic e-commerce sale email: colorful hero banner, dashed-border discount-code box (`SUNNY25`), 2x2 product grid with add-to-cart buttons.
 - **pet-store.html** — Playful pet-store email: warm amber/brown palette, friendly rounded type pairing, 3 featured products, pet-care tips panel, and first-order discount CTA.
 
